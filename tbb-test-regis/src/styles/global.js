@@ -45,7 +45,7 @@ export default createGlobalStyle`
     --btn-text-form: lowercase;
 
     /* Nav text */
-    --nav-font-weight: bold; 
+    --nav-font-weight: normal; 
     --nav-font-size: 16px;
     --nav-spacing-character: 0.32px;
     --nav-line-spacing: 22px;
