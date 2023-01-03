@@ -21,8 +21,8 @@ export const SearchIcon = () => {
         transform="translate(321.517 -95)"
         fill="none"
         stroke="#7b7070"
-        stroke-linecap="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeWidth="2"
       />
     </svg>
   );
