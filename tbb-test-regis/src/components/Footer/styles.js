@@ -40,19 +40,33 @@ export const Container = styled.div`
     cursor: pointer;
   }
 
+  li {
+    border-right: 1px solid var(--white);
+    padding-right: 15px;
+  }
+
   @media (max-width: 768px) {
     height: auto;
-    padding: 50px;
+    padding-right: 50px;
 
     ul {
+      margin-top: 50px;
       flex-direction: column;
     }
 
     .footerIcons {
       gap: 90px;
       justify-content: center;
-      flex-direction: column;
+      flex-direction: column-reverse;
       margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    li {
+      padding: 0 0 50px 0;
+      border: none;
+      border-bottom: 1px solid var(--white);
+      padding-bottom: 15px;
     }
   }
 `;
