@@ -1,10 +1,10 @@
-import { Container } from "./styles";
+import { Container, Content } from "./styles";
 import greenPack from "../../assets/images/green-pack.png";
 import bluePack from "../../assets/images/blue-pack.png";
 import pinkPack from "../../assets/images/pink-pack.png";
 import CardProduct from "../CardProduct";
 
-const ProductListMockup = [
+const productListMockup = [
   {
     img: bluePack,
     text: "intibiome wellness daily intimate wash",
@@ -28,16 +28,19 @@ function ProductList() {
   return (
     <>
       <Container>
-        <ul>
-          {ProductListMockup.map((product, index) => (
-            <CardProduct
-              key={index}
-              img={product.img}
-              text={product.text}
-              type={product.type}
-            />
-          ))}
-        </ul>
+        <Content>
+          <h2>our products</h2>
+          <ul>
+            {productListMockup.map((product, index) => (
+              <CardProduct
+                key={index}
+                img={product.img}
+                text={product.text}
+                type={product.type}
+              />
+            ))}
+          </ul>
+        </Content>
       </Container>
     </>
   );
