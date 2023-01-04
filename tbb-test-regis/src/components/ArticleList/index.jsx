@@ -26,8 +26,9 @@ function ArticleList() {
         <Content>
           <h2>Keep up to date with our discoveries</h2>
           <ul>
-            {articleListMockup.map((article) => (
+            {articleListMockup.map((article, index) => (
               <CardArticle
+                key={index}
                 img={article.img}
                 description={article.description}
               />
