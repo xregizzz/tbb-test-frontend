@@ -42,4 +42,18 @@ export const Content = styled.div`
   h2 {
     margin-bottom: 90px;
   }
+
+  @media (max-width: 768px) {
+    h2 {
+      margin-top: 50px;
+      text-align: center;
+      width: 300px;
+    }
+
+    ul {
+      width: 430px;
+      overflow-y: auto;
+      justify-content: flex-start;
+    }
+  }
 `;

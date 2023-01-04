@@ -25,4 +25,12 @@ export const Content = styled.div`
   h2 {
     margin-bottom: 90px;
   }
+
+  @media (max-width: 768px) {
+    ul {
+      width: 430px;
+      overflow-y: auto;
+      justify-content: flex-start;
+    }
+  }
 `;

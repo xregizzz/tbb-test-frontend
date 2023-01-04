@@ -8,8 +8,8 @@ function Footer() {
       <Container>
         <div>
           <ul className="footerNavBar">
-            <li>contact us</li> |<li>faq</li> |<li>site map</li> |
-            <li>privacy policy</li> |<li>cookies policy</li>|
+            <li>contact us</li> <li>faq</li> <li>site map</li>
+            <li>privacy policy</li> <li>cookies policy</li>
             <li>legal notice</li>
           </ul>
         </div>

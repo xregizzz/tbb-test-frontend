@@ -2,7 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 :root{
-
     /* Colors */
     --white:#FFFFFF;
     --blue: #389CD6;
@@ -116,13 +115,13 @@ li:hover{
 html,
 body {
     width: 100%;
-    min-height: 100vh;
 }
 
 *{
     margin: 0;
     padding: 0;
-    outline: 0;
+    border: 0;
+    box-sizing: border-box;
     font-family: var(--font-family);
 }
 
