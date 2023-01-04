@@ -39,4 +39,20 @@ export const Container = styled.div`
     height: 43px;
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 50px;
+
+    ul {
+      flex-direction: column;
+    }
+
+    .footerIcons {
+      gap: 90px;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 50px;
+    }
+  }
 `;

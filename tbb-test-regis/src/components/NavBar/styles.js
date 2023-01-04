@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 49px;
-  width: 100vw;
+  width: 100%;
   background-color: var(--blue);
   display: flex;
   justify-content: center;
@@ -29,5 +29,9 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
   }
 `;

@@ -7,19 +7,22 @@ import MainBanner from "../../assets/images/banner.png";
 import { Container } from "./styles";
 import IconsImage from "../../assets/images/icons.png";
 import MidBanner from "../../assets/images/banner-mid.png";
+import MainBannerMobile from "../../assets/images/banner-mobile.png";
 
 function LandingPage() {
+  const windowSize = window.innerWidth;
+
   return (
     <>
       <Container>
-        <header>
+        <header className="header">
           <Header />
           <NavBar />
         </header>
-        <main>
+        <main className="main">
           <img
             className="mainBanner"
-            src={MainBanner}
+            src={windowSize >= 768 ? MainBanner : MainBannerMobile}
             alt="Main Banner, products and happy people"
           />
           <section className="midSection">
