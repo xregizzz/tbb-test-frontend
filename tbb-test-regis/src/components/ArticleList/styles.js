@@ -32,6 +32,11 @@ export const Content = styled.div`
     font-family: Trebuchet MS;
     border: none;
     border-radius: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    filter: brightness(0.9);
   }
 
   h2 {
