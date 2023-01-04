@@ -24,6 +24,10 @@ Para rodar o projeto e visualizar em execução em tempo real é necessário bai
 
 * Após as dependências estarem instaladas o projeto está pronto para ser executado, para isso, ainda dentro da pasta raiz, digite o comando: npm start
 
+#Links
+
+* deploy: <a href="https://tbb-test-regis.vercel.app">https://tbb-test-regis.vercel.app </a>
+
 # Autores
 
 * Régis Theobald Silveira - Desenvolvedor web Full-Stack - <a href="https://www.linkedin.com/in/regis-theobald-silveira/"> Linkedin </a>
